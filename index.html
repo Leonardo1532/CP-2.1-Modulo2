@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        ol,
+        ul {
+            margin: 0;
+            padding: 0;
+            font-weight: normal;
+        }
+
+        ol,
+        ul {
+            list-style: none;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <section class="Content">
+        <section class="Register">
+            <h2 class="titleRegister">Cadastro de Lojas</h2>
+            <form action="api.flit.com.br/submeterDados" class="formulario" id="forms">
+                <div class="cadastro">
+                    <label class="firtsLabels" for="cadastroNome">Nome</label>
+                    <input class="nomeCadastro" id="cadastroNome" type="text" name="nome" placeholder="Ex: C&A" />
+                </div>
+                <div class="cadastro">
+                    <label class="firtsLabels" for="cadastroEndereco">Endereço</label>
+                    <input class="enderecoCadastro" type="text" name="endereco" id="cadastroEndereco"
+                        placeholder="Ex: Rua Fontoura Xavier 1532" />
+                </div>
+                <div class="checkbox">
+                    <section class="checks">
+                        <section class="checktitle">
+                            <h2 class="firtsLabel">Dias de Funcionamento</h2>
+                        </section>
+                        <section class="check">
+                            <label class="label" for="cadastroCheckbox1">Domingo</label>
+                            <input type="checkbox" id="cadastroCheckbox1" name="Domingo">
+                        </section>
+                        <section class="check">
+                            <label class="label" for="cadastroCheckbox2">Segunda</label>
+                            <input type="checkbox" id="cadastroCheckbox2" name="Segunda">
+                        </section>
+                        <section class="check">
+                            <label class="label" for="cadastroCheckbox3">Terça</label>
+                            <input type="checkbox" id="cadastroCheckbox3" name="Terça">
+                        </section>
+                        <section class="check">
+                            <label class="label" for="cadastroCheckbox4">Quarta</label>
+                            <input type="checkbox" id="cadastroCheckbox4" name="Quarta">
+                        </section>
+                        <section class="check">
+                            <label class="label" for="cadastroCheckbox5">Quinta</label>
+                            <input type="checkbox" id="cadastroCheckbox5" name="Quinta">
+                        </section>
+                        <section class="check">
+                            <label class="label" for="cadastroCheckbox6">Sexta</label>
+                            <input type="checkbox" id="cadastroCheckbox6" name="Sexta">
+                        </section>
+                        <section class="check">
+                            <label class="label" for="cadastroCheckbox7">Sábado</label>
+                            <input type="checkbox" id="cadastroCheckbox7" name="Sábado">
+                        </section>
+                    </section>
+                </div>
+                <div class="time">
+                    <section class="timeSection">
+                        <section class="timetitle">
+                            <h2 class="title1">Horário de Funcionamento</h2>
+                        </section>
+                        <section class="horario margim">
+                            <label class="labelTime" for="openingTime">Horário de Abertura</label>
+                            <input type="time" id="openingTime" value="horarioAbertura">
+                        </section>
+                        <section class="horario">
+                            <label class="labelTime" for="closingTime">Horário de Fechamento</label>
+                            <input type="time" id="closingTime" value="horarioFechamento">
+                        </section>
+                    </section>
+                </div>
+                <div class="botao">
+                    <section class="submitFinal">
+                        <button class="button" type="submit" id="bottom" name="botaofinal">Enviar Formulário</button>
+                    </section>
+                </div>
+            </form>
+        </section>
+    </section>
+    <script src="./index.js"></script>
+</body>
+
+</html>
