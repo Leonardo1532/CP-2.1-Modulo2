@@ -1,0 +1,185 @@
+.header {
+    height: 15vh;
+    background-color: #042940;
+    text-align: center;
+}
+
+.logoFlit {
+    height: 13vh;
+    width: 13vw;
+    margin-right: 3vw;
+    margin-bottom: 1vh;
+}
+
+.partForms {
+    display: inline-block;
+    height: 2vh;
+    width: 60vw;
+    margin-right: 16.2vw;
+    margin-top: 13vh;
+    background-color: #b1b1b1;
+    border-left: solid #DBF227 0.2vh;
+    border-right: solid #DBF227 0.2vh;
+    border-top: solid #DBF227 0.2vh;
+}
+
+.content {
+    text-align: center;
+    background-color: #EEEEEE;
+    height: 85vh;
+}
+
+.forms {
+    display: inline-block;
+    height: 85vh;
+    width: 60vw;
+    background-color: #D9D9D9;
+    border-left: solid #DBF227 0.2vh;
+    border-right: solid #DBF227 0.2vh;
+    border-bottom: solid #DBF227 0.2vh;
+}
+
+.formText {
+    display: inline-block;
+    height: 10vh;
+    width: 20vw;
+    margin-top: 4vh;
+}
+
+.text {
+    font-size: 2.8vh;
+    text-decoration: #D9D9D9;
+    margin-right: 9.5vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #5b5b5b;
+}
+
+#emailText {
+    margin-top: 0.5vh;
+    height: 5vh;
+    width: 20vw;
+    border: 0vh;
+}
+
+
+.title {
+    margin-top: 2vh;
+    display: inline-block;
+    width: 35vw;
+    height: 4vh;
+}
+
+.subtitle {
+    width: 35vw;
+    height: 4vh;
+    font-size: 3vh;
+}
+
+.formRadio {
+    margin-top: 2vh;
+    width: 40vw;
+    display: inline-block;
+    height: 12vh;
+}
+
+.number {
+    margin-top: 1vh;
+    width: 4vw;
+    height: 3vh;
+    float: left;
+    color: #004169;
+    font-size: 3vh;
+}
+
+.inputs {
+    visibility: hidden;
+}
+
+.radios {
+    width: 3.6vw;
+    float: left;
+    height: 3vh;
+    margin-left: 0.4vw;
+}
+
+.contentRadio {
+    height: 0vh;
+    width: 0vw;
+}
+
+.formRadio label>input+img {
+    cursor: pointer;
+    padding: 0.35vw;
+}
+
+
+#primeiro,
+#segundo,
+#terceiro,
+#quarto,
+#quinto,
+#sexto,
+#setimo,
+#oitavo,
+#nono,
+#decimo {
+    height: 0vh;
+}
+
+.title2 {
+    margin-left: 2vh;
+    margin-top: 8vh;
+    display: inline-block;
+    width: 40vw;
+    height: 4vh;
+}
+
+.subtitle2 {
+    width: 40vw;
+    height: 4vh;
+    font-size: 3vh;
+}
+
+.formCheckBox {
+    margin-top: 5vh;
+    width: 30vw;
+    height: 10vh;
+    display: inline-block;
+}
+
+.checks {
+    width: 5.5vw;
+    height: 5vh;
+    float: left;
+    margin-right: 0.5vw;
+}
+
+.checks label>input {
+    visibility: hidden;
+    height: 0vh;
+    width: 0vw;
+}
+
+.checks label>input+img {
+    display: inline-block;
+    cursor: pointer;
+    width: 3.5vw;
+    margin-left: 0.5vw;
+}
+
+.submit {
+    display: inline-block;
+    margin-top: 9vh;
+    width: 30vw;
+    height: 8vh;
+}
+
+.button {
+    width: 30vw;
+    height: 8vh;
+    background-color: #042940;
+    font-size: 3vh;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+}
